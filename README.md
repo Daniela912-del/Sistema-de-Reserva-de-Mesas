@@ -1,122 +1,73 @@
-﻿# 🍽️ Sistema de Reserva de Mesas
 
-Projeto desenvolvido em Java para simular o gerenciamento de reservas em um restaurante por meio de uma interface gráfica simples utilizando JOptionPane.
+# 🍽️ Sistema de Reserva de Mesas
 
-A aplicação permite cadastrar várias reservas, definir automaticamente o tipo de mesa de acordo com a quantidade de pessoas e exibir um resumo completo de todas as reservas realizadas.
+Sistema desenvolvido em Java para simular o gerenciamento de reservas de mesas em restaurantes através de uma interface gráfica construída com Swing.
 
 ## ✨ Funcionalidades
 
-- Cadastro de múltiplas reservas
-- Registro do nome do cliente
-- Registro da quantidade de pessoas
-- Registro da data da reserva
-- Registro do horário da reserva
-- Classificação automática do tipo de mesa
-- Cálculo do valor da reserva
-- Exibição do resumo de todas as reservas cadastradas
-
-## 📚 Conceitos Aplicados
-
-- Variáveis e tipos de dados
-- Estruturas condicionais (`if` e `else if`)
-- Estruturas de repetição (`while`)
-- Coleções com `ArrayList`
-- Manipulação de Strings
-- `StringBuilder`
-- Interface gráfica com `JOptionPane`
-- Lógica de programação
+- Realizar reservas
+- Cancelar reservas
+- Selecionar quantidade de pessoas
+- Escolher tipo de mesa
+- Escolher data da reserva
+- Escolher horário da reserva
+- Verificar disponibilidade da mesa
+- Interface gráfica intuitiva
 
 ## 🛠️ Tecnologias Utilizadas
 
-- Java
-- Swing (JOptionPane)
-- ArrayList
+- Java 27
+- Swing
 - Git
 - GitHub
 
-## 📋 Regras de Negócio
+## 🏗️ Conceitos Aplicados
 
-| Quantidade de Pessoas | Tipo de Mesa | Valor |
-| --------------------- | ------------ | ------ |
-| 1 a 4                 | Padrão       | R$ 80,00 |
-| 5 a 8                 | Família      | R$ 150,00 |
-| 9 a 12                | VIP          | R$ 250,00 |
-| Acima de 12           | Indisponível | R$ 0,00 |
-
-## ▶️ Exemplo de Uso
-
-```text
-Nome do cliente:
-Daniela
-
-Quantidade de pessoas:
-6
-
-Data da reserva:
-15/11/2026
-
-Horário da reserva:
-20:00
-
-Deseja cadastrar outra reserva?
-
-[Sim] [Não]
-```
-
-### Resumo
-
-```text
-===== TODAS AS RESERVAS =====
-
-Reserva 1
-
-Cliente: Daniela
-Pessoas: 6
-Data: 15/11/2026
-Horário: 20:00
-Mesa: Família
-Valor: R$ 150.0
-```
+- Programação Orientada a Objetos (POO)
+- Interfaces
+- Encapsulamento
+- Classes e Objetos
+- Eventos
+- Java Swing
+- Organização de Código
 
 ## 📂 Estrutura do Projeto
 
 ```text
 src/
-└── Main.java
+├── Main.java
+├── TelaPrincipal.java
+├── Mesa.java
+└── Reservavel.java
 ```
 
-## 🎯 Objetivo
+## ▶️ Como Executar
 
-Este projeto foi desenvolvido para praticar os fundamentos da linguagem Java por meio de um cenário realista de gerenciamento de reservas em restaurantes.
-
-Durante o desenvolvimento foram aplicados conceitos de lógica de programação, coleções, estruturas de repetição, estruturas condicionais e criação de interfaces gráficas básicas utilizando Swing.
-
-## 🚀 Como Executar
-
-1. Clone este repositório:
+1. Clone o repositório:
 
 ```bash
-git clone https://github.com/Daniela912-del/nome-do-repositorio.git
+git clone https://github.com/Daniela912-del/seu-repositorio.git
 ```
 
 2. Abra o projeto em uma IDE Java.
 
-3. Execute a classe `Main`.
+3. Execute a classe:
+
+```java
+Main.java
+```
 
 ## 🔮 Melhorias Futuras
 
-- Cadastro de telefone do cliente
-- Cancelamento de reservas
-- Edição de reservas
-- Validação de datas e horários
-- Persistência em arquivos
 - Persistência em banco de dados
-- Separação em classes (Reserva, Cliente e Mesa)
-- Desenvolvimento de uma API com Spring Boot
+- Cadastro de clientes
+- Histórico de reservas
+- Integração com Spring Boot
+- API REST
 
 ## 👩‍💻 Autora
 
 **Daniela Menezes Guimarães**
 
-- GitHub: https://github.com/Daniela912-del
-- LinkedIn: https://www.linkedin.com/in/danielamenezesguimaraes
+GitHub:
+- https://github.com/Daniela912-del
